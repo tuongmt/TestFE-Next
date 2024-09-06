@@ -14,13 +14,7 @@ import {
   YAxis,
 } from "recharts";
 
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import {
   ChartConfig,
   ChartContainer,
@@ -35,7 +29,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from "./ui/select";
-import { config } from "process";
 
 export default function DateFilter() {
   const [isActiveChart, setIsActiveChart] = useState(true);
